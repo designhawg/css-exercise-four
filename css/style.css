@@ -1,29 +1,127 @@
 *, *:before, *:after {
   box-sizing: border-box;
+}
+
+.preview-baku {
+  background-color: #dadada;
+  margin: 0 auto;
+  width: 100%;
+  padding: 12px 20px;
+}
+
+@media screen and (min-width: 575px){
+   preview-baku {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   preview-baku {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+.preview-london {
+  background-color: #dadada;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0 15px 15px;
+}
+
+@media screen and (min-width: 575px){
+   preview-london {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   preview-london {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+.preview-madrid {
+  background-color: #dadada;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0 15px 15px;
+}
+
+@media screen and (min-width: 575px){
+   preview-madrid {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   preview-madrid {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+.preview-rome {
+  background: url(images/rome.jpg) no-repeat top center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0 15px 15px;
+}
+
+@media screen and (min-width: 575px){
+   preview-rome {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   preview-rome {
+    margin: 1%;
+    width: 48%;
+  }
+}
 
 body {
-  background-color: #dadada;
+  background-color: #fff;
   font-size: 10px;
+  padding: 10px;
+  display: inline-block;
 }
 
 .container {
-  margin: 200px auto;
-  width: 90%;
-}
-
-div {
   background-color: #dadada;
-  float: left;
-  margin: 1% 0;
-  width: 100%
-  padding: 200px 25px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-h1, h3 {
-  font-size: 1em;
-  margin: 0;
+.container nav {
+  background-color: #dadada;
+  position: relative;
+  width: 100%;
+  text-align: center;
+	display: inline-block;
 }
 
-h2 {
-  font-size: 2em;
+.container h1 {
+  position: relative;
+  text-align: inherit;
+  font-size: 12px;
+  font: sans-serif;
+  padding-top: 18px;
+}
+
+.container h3 {
+  font-size: 1.5em;
+  position: relative;
+  top: 50px;
+  padding: 0 15px 15px 15px
+}
+
+.container img {
+  top: 10px
 }
