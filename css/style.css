@@ -1,4 +1,29 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 200px auto;
+  width: 90%;
+}
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%
+  padding: 200px 25px;
+}
+
+h1, h3 {
+  font-size: 1em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
 }
