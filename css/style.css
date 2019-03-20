@@ -2,126 +2,95 @@
   box-sizing: border-box;
 }
 
-.preview-baku {
+.container {
   background-color: #dadada;
-  margin: 0 auto;
+  margin-left: 50%;
+  margin-top: 10%;
   width: 100%;
-  padding: 12px 20px;
 }
 
-@media screen and (min-width: 575px){
-   preview-baku {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px){
-   preview-baku {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-.preview-london {
+.preview {
   background-color: #dadada;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%;
-  padding: 10px 0 15px 15px;
+  padding: 50px;
 }
 
 @media screen and (min-width: 575px){
-   preview-london {
-    margin: 1%;
-    width: 48%;
+   preview {
+     margin: 1%;
+     width: 48%;
   }
 }
 
 @media screen and (min-width: 991px){
-   preview-london {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-.preview-madrid {
-  background-color: #dadada;
-  margin: 0 auto;
-  width: 100%;
-  padding: 10px 0 15px 15px;
-}
-
-@media screen and (min-width: 575px){
-   preview-madrid {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px){
-   preview-madrid {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-.preview-rome {
-  background: url(images/rome.jpg) no-repeat top center;
-  margin: 0 auto;
-  width: 100%;
-  padding: 10px 0 15px 15px;
-}
-
-@media screen and (min-width: 575px){
-   preview-rome {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px){
-   preview-rome {
-    margin: 1%;
-    width: 48%;
+   preview {
+     margin: 1%;
+     width: 48%;
   }
 }
 
 body {
   background-color: #fff;
   font-size: 10px;
-  padding: 10px;
   display: inline-block;
 }
 
-.container {
-  background-color: #dadada;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.container nav {
-  background-color: #dadada;
+h1 {
   position: relative;
-  width: 100%;
   text-align: center;
-	display: inline-block;
+  font-size: 60%;
+  padding-top: 10px;
+  font-variant: small-caps;
 }
 
-.container h1 {
-  position: relative;
-  text-align: inherit;
-  font-size: 12px;
-  font: sans-serif;
-  padding-top: 18px;
+.baku h3 {
+  font-size: 1em;
+  margin: -35px
 }
 
-.container h3 {
-  font-size: 1.5em;
-  position: relative;
-  top: 50px;
-  padding: 0 15px 15px 15px
+.baku {
+  background-color: #dadada;
+  background-image:url(../images/baku.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.container img {
-  top: 10px
+.london h3 {
+  font-size: 100%;
+  margin: -35px
+}
+
+.london{
+  background-color: #dadada;
+  background-image:url(../images/london.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.madrid h3 {
+  font-size: 100%;
+  margin: -35px
+}
+
+.madrid {
+  background-color: #dadada;
+  background-image:url(../images/madrid.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+.rome h3 {
+  font-size: 1em;
+  margin: -35px
+}
+
+.rome {
+  background-color: #dadada;
+  background-image:url(../images/rome.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
