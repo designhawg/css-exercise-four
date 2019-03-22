@@ -3,76 +3,48 @@
 }
 
 .container {
-  background-color: #dadada;
-  margin-left: 50%;
-  margin-top: 10%;
   width: 100%;
+  margin: auto;
 }
 
 .preview {
-  background-color: #dadada;
-  margin: 10px auto;
+  margin: 0% 2% 2% 2% auto;
   width: 100%;
-  padding: 50px;
-}
-
-@media screen and (min-width: 575px){
-   preview {
-     margin: 1%;
-     width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px){
-   preview {
-     margin: 1%;
-     width: 48%;
-  }
+  text-align: left;
 }
 
 body {
-  background-color: #fff;
-  font-size: 10px;
-  display: inline-block;
+  background-color: #dadada;
+  font-size: 16px;
 }
 
 h1 {
-  position: relative;
   text-align: center;
-  font-size: 60%;
-  padding-top: 10px;
+  font-size: 100%;
+  padding: 5%;
   font-variant: small-caps;
+  font-family: sans-serif;
 }
 
-.baku h3 {
-  font-size: 1em;
-  margin: -35px
+h3 {
+  font-size: 150%;
+  text-align: left;
+  padding: 10% 80% 80% 10%;
 }
 
 .baku {
   background-color: #dadada;
   background-image:url(../images/baku.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: left;
 }
 
-.london h3 {
-  font-size: 100%;
-  margin: -35px
-}
-
-.london{
+.london {
   background-color: #dadada;
   background-image:url(../images/london.png);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.madrid h3 {
-  font-size: 100%;
-  margin: -35px
 }
 
 .madrid {
@@ -82,15 +54,52 @@ h1 {
   background-size: cover;
 }
 
-.rome h3 {
-  font-size: 1em;
-  margin: -35px
-}
-
 .rome {
   background-color: #dadada;
   background-image:url(../images/rome.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* Smaller Screens */
+
+@media screen and (min-width: 575px){
+  .container {
+    width: 80%;
+  }
+  .preview {
+    margin: 2% auto;
+    width: 50%;
+    float: left;
+    height: 200px;
+    padding: inherit;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  h3 {
+    font-size: 100%;
+  }
+}
+
+/* Larger Screens */
+
+@media screen and (min-width: 991px){
+  .container {
+    width: 70%;
+  }
+  .preview {
+    margin: 1%;
+    width: 23%;
+    float: left;
+    height: 200px;
+    padding: inherit;
+  }
+  h1 {
+    font-size: 125%;
+  }
+  h3 {
+    font-size: 125%;
+  }
 }
