@@ -3,8 +3,8 @@ body {
   font-size: 10px;
 }
 .container {
-  text-align: center;
-  display: inline-block;
+  display: table;
+  width: 100%;
 }
 div {
   width: 75%;
@@ -13,18 +13,26 @@ div {
   padding-bottom: 40px;
 }
 .preview-baku {
+  display: table-cell;
+  padding: 16px;
   background-image: url("../images/baku.jpg");
   background-size: cover;
 }
 .preview-london {
+  display: table-cell;
+  padding: 16px
   background-image: url('../images/london.png');
   background-size: cover;
 }
 .preview-madrid {
+  display: table-cell;
+  padding: 16px;
   background-image: url('../images/madrid.jpg');
   background-size: cover;
 }
 .preview-rome {
+  display: table-cell;
+  padding: 16px;
   background-image: url('../images/rome.jpg');
   background-size: cover;
 }
