@@ -1,49 +1,74 @@
 body {
   background-color: darkgrey;
-  font-size: 10px;
+  font-size: 26px;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
 }
 .container {
-  display: table;
+  display: block;
   width: 100%;
+  position: relative;
 }
 div {
-  width: 75%;
-  columns: 1;
-  background-size: cover;
-  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
+
 .preview-baku {
-  display: table-cell;
-  padding: 16px;
-  background-image: url("../images/baku.jpg");
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  background-image: url('../images/baku.jpg');
   background-size: cover;
 }
 .preview-london {
-  display: table-cell;
-  padding: 16px
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
   background-image: url('../images/london.png');
   background-size: cover;
 }
 .preview-madrid {
-  display: table-cell;
-  padding: 16px;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
   background-image: url('../images/madrid.jpg');
   background-size: cover;
 }
 .preview-rome {
-  display: table-cell;
-  padding: 16px;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
   background-image: url('../images/rome.jpg');
   background-size: cover;
 }
 h1 {
+  font-variant: small-caps;
+  text-align: center;
+  padding: 40px;
+}
+h2 {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  font-size: .75em;
+  top: 40px;
+  left: 40px;
 }
 @media all and (min-width: 575px) {
-  .container {column-count: 2}
+  .container {
+    column-count: 2;
+  }
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+  }
 }
 @media all and (min-width: 991px) {
-  .container {column-count: 4}
+  .container {
+    column-count: 4;
+  }
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+    overflow: hidden;
 }
