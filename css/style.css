@@ -94,5 +94,6 @@ h1 {
     margin: 1%;
     width: 22%;
     display: inline-block;
+    background-color: purple;
   }
 }
