@@ -75,7 +75,6 @@ h1 {
   }
 }
 
-
 @media only screen and (min-width: 1199px) {
   #baku, #london, #madrid, #rome {
     margin: 1%;
@@ -88,12 +87,10 @@ h1 {
   }
 }
 
-
 @media only screen and (min-width: 1200px) {
   #baku, #london, #madrid, #rome {
     margin: 1%;
     width: 22%;
     display: inline-block;
-    background-color: purple;
   }
 }
