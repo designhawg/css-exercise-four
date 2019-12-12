@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +6,7 @@
 body{
   background-color: #dadada;
   font-size: 10px;
-  width: 420px;
+  width: 100%;
   background-color: white;
   margin: 0 auto;
 }
@@ -66,32 +67,22 @@ h1 {
 @media only screen and (min-width: 575px) {
   #baku, #london, #madrid, #rome {
     margin: 1%;
-    width: 47%;
+    width: 100%;
     display: inline-block;
   }
 
-   body {
-    width: 575px;
-  }
 }
 
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 760px) {
   #baku, #london, #madrid, #rome {
-    margin: 1%;
-    width: 23%;
-    display: inline-block;
+    width: 47%;
   }
 
-  body {
-    width: 1199px;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
   #baku, #london, #madrid, #rome {
-    margin: 1%;
     width: 22%;
-    display: inline-block;
-
   }
 }
